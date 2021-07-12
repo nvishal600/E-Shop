@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;500;600&display=swap');
+*{
+    font-family: 'MuseoModerno', cursive;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0) !important;
+    font-size: 18px;
+    
+}
+
+.navbar-light .navbar-nav .nav-link span:nth-of-type(1){
+    margin-left: 20px !important;
+}
+.searchBox .btn {
+    position: relative !important;
+    left: -365px;
+}
+.searchBox .form-control {
+    border-radius: 0 !important;
+    border: 1px solid black;
+    width: 350px !important;
+    padding: .375rem 1.75rem;
+}
+.bg-light {
+    background-color: white !important;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    padding: 10px 10% !important;
+}
+.navbar .addCart{
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid rgb(244,93,150);
+    padding: 3px 20px;
+    background-color: rgb(244,93,150);
+}
+.navbar .addCart a:nth-of-type(1)
+{
+    font-size: 20px;
+    margin-right: 10px;
+    
+
+}
+.navbar .addCart p:nth-last-of-type(1)
+{
+   margin: 0;
+   padding: 0;
+}
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10)),url(../img/5.jpeg);
+    background-position-x: 20%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.shopBtn{
+    display: block;
+    background-color: rgb(244,93,150);
+    border: 2px solid rgb(244,93,150);
+    padding: 1px 20px;
+    border-radius: 0;
+    margin: 0px auto;
+    
+    color: white;
+}
+footer #footerLink a:hover{
+    color: blue;
+    text-decoration: underline !important;
+}

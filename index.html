@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Florist || Online</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex searchBox">
+                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home<span>|</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About<span>|</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop">Shop<span>|</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+                <div class="addCart">
+                    <a href="#"><i style="color: white;" class="bi bi-cart"></i></a>
+                    <p style="color: white;">Your Cart</p>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </nav>
+
+    <main>
+        <!-- banner -->
+        <section id="home" class="banner">
+            <div class="container-fluid pb-5">
+                <div class="row pt-5 text-center banner">
+                    <div class="col bannerHead  pt-5">
+                        <h1 class="display-5 mb-5">Making beautiful flowers a part <br> of your life.</h1>
+
+                        <hr class="text-center"
+                            style="background-color: black; width: 30%;height: 2px; display: inline-block;">
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mt-3" style="object-fit: cover; object-position: center;">
+                        <img src="./img/product-10.jpeg" style="box-shadow: 1px 2px 10px 0px black" class="img-fluid"
+                            width="100%" alt="flower-img">
+                    </div>
+                    <div class="col-md-3 mt-3" style="object-fit: cover; object-position: center;">
+                        <img src="./img/product-13.jpeg" style="box-shadow: 1px 2px 10px 0px black" class="img-fluid"
+                            width="100%" alt="flower-img">
+                    </div>
+                    <div class="col-md-3 mt-3" style="object-fit: cover; object-position: center;">
+                        <img src="./img/product-9.jpeg" style="box-shadow: 1px 2px 10px 0px black" class="img-fluid"
+                            width="100%" alt="flower-img">
+                    </div>
+                </div>
+
+                <button type="button" style="box-shadow: 0px 0px 5px 0px black" class="btn fs-4 shopBtn mt-5">Shop
+                    Now</button>
+
+
+
+
+                <!-- container fluid close -->
+            </div>
+        </section>
+
+
+        <!-- features -->
+        <section class="feature">
+            <div class="container-fluid">
+                <div class="row text-center justify-content-evenly py-5">
+                    <h1 class="display-5 ">Featured Products</h1>
+                    <div class="col-md-5 mt-4">
+                        <img src="./img/product-6.jpeg"
+                            style="object-fit: cover; object-position: center;  border: 1px solid lightgrey; height: 350px;"
+                            width="100%" alt="flower">
+                        <p style="color: grey;" class="m-0 mt-3">PRODUCT NAME <br> $30</p>
+
+                    </div>
+                    <div class="col-md-5 mt-4">
+                        <img src="./img/product-8.jpeg"
+                            style="object-fit: cover; border: 1px solid lightgrey; object-position: 20% 50%; width: 100%; height: 350px;"
+                            width="100%" alt="flower">
+                        <p style="color: grey;" class="m-0 mt-3">PRODUCT NAME <br> $30</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- newsletter -->
+        <section class="newsletter">
+            <div class="container-fluid">
+                <div class="row justify-content-evenly py-5"
+                    style="border-top: 2px solid grey;border-bottom: 2px solid grey;">
+                    <div class="col-md-5 mt-3">
+                        <h1 class="display-5">Newsletter</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima labore optio nisi,
+                            voluptatem quod rerum in fugit ut aperiam quas!</p>
+                    </div>
+                    <div class="col-md-5  pt-5">
+                        <input class="mr-4 mb-3"
+                            style="font-size: 18px;border-radius: 0; border: 1px solid black; padding: 5px 30px;"
+                            type="email" placeholder="Enter Email">
+                        <button class="btn "
+                            style="font-size: 18px; border-radius: 0; border: 2px solid rgb(206, 200, 200); background-color: rgb(206, 200, 200); padding: 5px 30px;">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- list of products -->
+        <section id="shop" class="products">
+            <div class="container-fluid pt-5">
+                <div class="row justify-content-evenly ">
+                    <div class="col-md-4 mt-3 ">
+                        <img src="./img/categories-4.jpg" class="mt-3"
+                            style="height: 80%; border: 1px solid lightgrey; object-fit: cover; object-position: 50% 10%;"
+                            width="100%" height="100%" alt="">
+                        <p style="color: grey;" class="m-0 mt-3">PRODUCT NAME <br> $30</p>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <div class="row justify-content-evenly">
+                            <div class="col-md-5 mt-3" style="width: 50%;">
+                                <img src="./img/10.jpeg" style="border: 1px solid lightgrey;" width="100%" alt="flower">
+                                <p style="color: grey;" class="m-0 mt-3">PRODUCT NAME <br> $30</p>
+                            </div>
+                            <div class="col-md-5 mt-3" style="width: 50%;">
+                                <img src="./img/8.jpeg" style="border: 1px solid lightgrey;" width="100%" alt="flower">
+                                <p style="color: grey;" class="m-0 mt-3">PRODUCT NAME <br> $30</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly mt-3">
+                            <div class="col-md-5 mt-3" style="width: 50%;">
+                                <img src="./img/11.jpeg" style="border: 1px solid lightgrey;" width="100%" alt="flower">
+                                <p style="color: grey;" class="m-0 mt-3">PRODUCT NAME <br> $30</p>
+                            </div>
+                            <div class="col-md-5 mt-3" style="width: 50%;">
+                                <img src="./img/12.jpeg" style="border: 1px solid lightgrey;" width="100%" alt="flower">
+                                <p style="color: grey;" class="m-0 mt-3">PRODUCT NAME <br> $30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- about us -->
+        <section id="about" class="about">
+            <div class="container-fluid">
+                <div class="row justify-content-center py-5"
+                    style="border-top: 2px solid grey;border-bottom: 2px solid grey;">
+                    <div class="col-md-10 text-center">
+                        <h1 class="display-5 mb-4">About Us</h1>
+                        <p>For Heather Henson, of Boreal Blooms in Cold Lake, Alberta, Canada, growing flowers that can
+                            be dried and incorporated into late fall and winter floral arrangements has been a
+                            game-changer. During her growing season, this farmer-florist relies on a vivid palette of
+                            annuals, perennials and ornamental grasses to supply her studio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row pb-5 pt-5 justify-content-evenly">
+                <div class="col-md-3 mt-3">
+                    <img src="./img/feature-1.jpg" width="20%" alt="image">
+                    <p class="mt-3">1717 Harrison.St, San Francisco <br>
+                        CA94103, USA</p>
+                </div>
+                <div id="footerLink" class="col-md-7">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-3 mt-3">
+                            <h5>MAIN MANU</h5>
+                            <p class="m-0 pt-2"><a class="link-dark text-decoration-none" href="#home">Home</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" href="#about">About</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" href="#shop">Shop</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" href="#">Help</a></p>
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <h5>COMPANY</h5>
+                            <p class="m-0 pt-2"><a class="link-dark text-decoration-none" href="#">The Company</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" href="#">Careers</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" href="#">Press</a></p>
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <h5>DISCOVER</h5>
+                            <p class="m-0 pt-2"><a class="link-dark text-decoration-none" href="#">The Team</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" href="#">Our History</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" href="#">Brand Motto</a></p>
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <h5>FIND US ON</h5>
+                            <p class="m-0 pt-2"><a class="link-dark text-decoration-none" target="_blank"
+                                    href="https://www.facebook.com/">Facebook</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" target="_blank"
+                                    href="https://twitter.com/">Twitter</a></p>
+                            <p class="m-0 pt-1"><a class="link-dark text-decoration-none" target="_blank"
+                                    href="https://www.instagram.com/?hl=en">Instagram</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center py-3" style="border-top: 2px solid grey;">
+                <div class="col-md-10">
+                    <p class="m-0 text-center">Copyright ©2021 All rights reserved | This template is made with by
+                        Vishal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

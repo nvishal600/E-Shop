@@ -1,0 +1,16 @@
+@media(max-width:963px)
+{
+    .searchBox {
+        display: none !important;
+    }
+}
+@media(max-width:991px)
+{
+    .navbar-light .navbar-nav .nav-link span:nth-of-type(1){
+        visibility: hidden;
+    }
+.navbar .addCart {  
+    width: 145px;
+}
+
+}
