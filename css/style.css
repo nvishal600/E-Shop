@@ -54,7 +54,7 @@ html {
    padding: 0;
 }
 .banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10)),url(../img/5.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),url(../img/5.jpeg);
     background-position-x: 20%;
     background-attachment: fixed;
     background-repeat: no-repeat;
